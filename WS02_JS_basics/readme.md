@@ -1,58 +1,23 @@
 This is Workshop 02 - JavaScript Basics
 
-In this exercise, I created a small JavaScript project to practice basic language features and browser developer tools.
+This JavaScript exercise demonstrates basic programming concepts, including:
 
-Project Structure
+    Declaring variables with const and let.
 
-    Created the folder WS02_JS_basics.
+    Printing values and messages to the console.
 
-    Added index.html in the root and js/script.js inside a js subfolder.
+    Using template literals to create dynamic sentences.
 
-    Connected the JavaScript file to the HTML page using <script src="js/script.js"></script>.
+    Collecting user input with prompt().
 
-Exercise 1 – Developer Tools and Console
+    Converting input into a number with Number().
 
-    Opened index.html in a browser and used Developer Tools (F12).
+    Using an if...else statement to check whether the user is an adult.
 
-    Tested console.log("Hello World!"); and alert("Hello World!"); in the Console.
+    Creating and calling a greetUser() function.
 
-    Intentionally wrote incorrect code (e.g., consolel.log(...)) to observe error messages.
+    Selecting an HTML button with getElementById().
 
+    Adding a click event listener that displays an alert and logs a message to the console.
 
-Exercise 2 – Variables
-
-    Declared variables for my name, age, and favourite animal using const and let.
-
-    Printed each variable to the Console with console.log().
-
-    Created a sentence using template literals and printed it
-
-
-Exercise 3 – User Input
-
-    Used prompt() to ask the user for their name.
-
-    Stored the answer in a variable and printed a greeting to the Console
-
-
-Exercise 4 – Conditionals
-
-    Asked the user for their age with prompt().
-
-    Converted the input to a number and used an if / else statement
-
-
-Exercise 5 – Functions
-
-    Created a function greetUser(name) that logs a greeting.
-
-    Tested the function with several names, including the name from the prompt() input.
-
-
-Bonus – Connecting JavaScript to the Page
-
-    Added a heading and a button to index.html.
-
-    Used document.getElementById() and addEventListener("click", ...) to run JavaScript when the button is clicked.
-
-    Displayed a message with alert("JavaScript works!"); and logged a confirmation to the Console.
+The exercise also demonstrates how JavaScript can interact with an HTML page and respond to user actions.
