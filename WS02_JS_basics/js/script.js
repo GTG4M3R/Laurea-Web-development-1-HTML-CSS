@@ -27,6 +27,10 @@ if (userAge >= 18) {
 }
 
 
+const userAnimal = prompt("Mikä on lempieläimesi?");
+console.log(`Hienoa, ${userName}! Sinun lempieläimesi on ${userAnimal}.`);
+
+
 function greetUser(name) {
   console.log("Hei " + name + "!");
 }
