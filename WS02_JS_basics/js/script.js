@@ -2,18 +2,23 @@ const name = "Eetu";
 let age = 22;
 const favouriteAnimal = "Kissa";
 
+
 console.log(name);
 console.log(age);
 console.log(favouriteAnimal);
 
+
 const sentence = `Hei! Nimeni on ${name} ja lempieläimeni on ${favouriteAnimal}.`;
 console.log(sentence);
+
 
 const userName = prompt("Mikä on nimesi?");
 console.log(`Hei ${userName}! Tervetuloa JavaScriptin maailmaan!`);
 
+
 const userAgeInput = prompt("Kuinka vanha olet?");
 const userAge = Number(userAgeInput);
+
 
 if (userAge >= 18) {
   console.log("Olet aikuinen.");
@@ -21,15 +26,17 @@ if (userAge >= 18) {
   console.log("Olet alaikäinen.");
 }
 
+
 function greetUser(name) {
   console.log("Hei " + name + "!");
 }
 
-greetUser("John");
-greetUser("Emma");
-greetUser("Matti");
+
+greetUser(userName);
+
 
 const helloButton = document.getElementById("helloButton");
+
 
 helloButton.addEventListener("click", function () {
   alert("JavaScript toimii! Nappia painettu.");
